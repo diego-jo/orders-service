@@ -1,0 +1,32 @@
+{
+  "name": "orders-service",
+  "version": "1.0.0",
+  "description": "orders-service",
+  "main": "server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/diego-jo/orders-service.git"
+  },
+  "author": "Diego",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/diego-jo/orders-service/issues"
+  },
+  "homepage": "https://github.com/diego-jo/orders-service#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.13",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.22",
+    "nodemon": "^2.0.7"
+  }
+}
